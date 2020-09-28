@@ -1,0 +1,31 @@
+@import "./core/variables.scss";
+@import "./core/mixins.scss";
+@import "./core/reset.scss";
+@import "./core/functions.scss";
+
+.order {
+  margin: 0 150px;
+  padding: 30px;
+  align-self: center;
+}
+
+.order_title {
+  margin: 10px;
+  font-size:rem(30);
+}
+
+.items_order {
+  padding: 10px;
+  background-color: $color-primary-light;
+
+}
+
+.deals_order {
+  padding: 10px;
+  background-color: $color-secondary-light;
+}
+
+.order_price {
+  margin: 10px;
+  font-size: rem(24);
+}

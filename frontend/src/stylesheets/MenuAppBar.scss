@@ -1,0 +1,11 @@
+@import "./core/variables.scss";
+@import "./core/mixins.scss";
+@import "./core/reset.scss";
+@import "./core/functions.scss";
+
+.menuApp {
+  background-color: $color-primary;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+}

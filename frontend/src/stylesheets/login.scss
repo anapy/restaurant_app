@@ -1,0 +1,45 @@
+@import "./core/variables.scss";
+@import "./core/mixins.scss";
+@import "./core/reset.scss";
+@import "./core/functions.scss";
+
+.userRegister {
+  height: 500px;
+  font-family: inherit;
+  padding: 40px;
+  // background-color: $color-primary-light;
+  display: flex;
+  justify-content: space-around;
+}
+
+.formContainer {
+  width: 50%;
+  background-color: $color-primary-light;
+  border: 2px solid $color-secondary-dark;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+label, input {
+  padding: 10px;
+  margin: 20px;
+}
+
+.logButton {
+  width: 150px;
+  margin: 20px;
+}
+
+.landing-header {
+  margin-top: 100px;
+}
+
+.header-subtitle {
+  margin: 20px;
+  font-size: rem(30);
+}
+
